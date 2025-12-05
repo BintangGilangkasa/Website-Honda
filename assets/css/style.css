@@ -8,7 +8,6 @@ body {
   box-shadow: #000000 0px 3px 20px;
 }
 
-
 .mt--2 {
   margin-top: -0.5rem !important;
 }
@@ -32,7 +31,6 @@ body {
 
 
 /* Dropdown */
-
 .dropdown-menu {
   border-radius: 8px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -48,13 +46,11 @@ body {
 }
 
 /* Main Content */
-
 .hero-section img {
   object-fit: cover;
   width: 100%;
   border-radius: 14px;
 }
-
 
 /* 2 Konten */
 .promo-card {
@@ -81,8 +77,13 @@ body {
     line-height: 1.6;
 }
 
-.btn {
-  color: #fff;
+.bg-owner {
+  background: #fff;
+}
+
+.bg-owner:hover{
+  background-color: #961313;
+  color: #000000;
 }
 
 /* Running Text */
