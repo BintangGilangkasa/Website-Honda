@@ -17,7 +17,7 @@ body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #212529 !important;
+  color: #292121 !important;
   font-size: 16px;
   font-weight: 600;
   transition: all 0.4s;
@@ -25,6 +25,51 @@ body {
 
 .navbar-light .navbar-nav .nav-link:hover {
   color: #0d6efd !important;
+}
+
+/* Logo di samping judul */
+.honda-logo {
+    height: 48px;
+    width: auto;
+    filter: drop-shadow(0 3px 4px rgba(239, 6, 6, 0.4));
+    animation: fadeLogo 0.9s ease forwards;
+}
+
+/* Title */
+.section-title {
+  color: #f70303;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 3px 12px rgba(0,0,0,0.4);
+}
+
+/* Logo fade animation */
+@keyframes fadeLogo {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+/* Produk */
+
+.product-card:hover{
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 18px;
+  backdrop-filter: blur(12px);
+  padding: 20px;
+  transition: all 0.35s ease;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.2);
+  border: 1px solid rgba(255,255,255,0.3);
+  cursor: pointer;
+  transform: translateY(-0.5rem);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 .feature-icon-1 {
