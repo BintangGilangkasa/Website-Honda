@@ -1,5 +1,6 @@
 <!doctype html>
-<html lang="id">
+<html lang="en" class="h-100">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -8,10 +9,10 @@
     <meta name="author" content="Indra Styawantoro">
 
     <!-- Title -->
-    <title>HONDA MOTOR</title>
+    <title>Honda Motor</title>
 
     <!-- Favicon icon -->
-    <link rel="shortcut icon" href="assets/img/20251114_193436.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/img/honda-seeklogo.ico" type="image/x-icon">
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,6 +20,13 @@
 
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&amp;display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <style>
         .product-card {
@@ -51,30 +59,48 @@
         .tombol-type {
             color: #000000;
         }
+        .title-motor {
+            margin-top: 20px;
+            text-align: center; 
+        }
 
     </style>
 </head>
-<body class="d-flex flex-column h-100">
+<body id="home" class="d-flex flex-column h-100">
+    
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm bg-nav">
+    <nav class="navbar navbar-expand-lg navbar-light py-2 bg-nav">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="https://www.astra-honda.com/">
-                <img src="assets/img/LOGO.png" alt="Berkah Jaya Motor" width="50">
-                <a class="text-body fs-4 fw-bolder" href="https://www.astra-honda.com/">Berkah Jaya Motor</a>
+            <!-- Brand -->
+            <a class="navbar-brand" href="https://www.astra-honda.com">
+                <img src="assets/img/honda-seeklogo.png" alt="Honda" width="50" height="50"
+                    class="d-inline-block mt--2 me-2">
             </a>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse py-1 py-lg-1" id="navbarSupportedContent">
+                <!-- Menu -->
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link mx-1" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#about">About</a>
+                        <a class="nav-link mx-1" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#service">Service</a>
+                        <a class="nav-link mx-1" href="#produk">Product</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link mx-1 dropdown-toggle" href="#ownership" role="button"
+                            data-bs-toggle="dropdown">Owner</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#ownership">Profile</a></li>
+                            <li><a class="dropdown-item" href="#owner">Testimonials</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                        <a class="nav-link mx-1" href="#promo">Promote</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link mx-1" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -84,12 +110,12 @@
     <!-- Pilih Tipe Motor Section -->
     <section class="pilih-tipe">
         <div class="container">
-            <h3 class="text-center mb-4">Pilih Tipe Motor Favorit Anda</h3>
+            <h3 class="title-motor">Pilih Tipe Motor Favorit Anda</h3>
             <div class="row justify-content-center">
                 <div class="text-align-center d-flex gap-3 justify-content-center">
-                    <a href="metic.html" class="tombol-type">Matic</a>
-                    <a href="sport.html" class="tombol-type">Sport</a>
-                    <a href="cub.html" class="tombol-type">Cub</a>
+                    <a href="metic.html" class="fw-bold tombol-type">Matic</a>
+                    <a href="sport.html" class="fw-bold tombol-type">Sport</a>
+                    <a href="cub.html" class="fw-bold tombol-type">Cub</a>
                 </div>
             </div>
         </div>
@@ -123,6 +149,14 @@
                         <h5>GTR 150</h5>
                         <div class="price-info">Harga Mulai</div>
                         <div class="price-main">Rp 26.715.000</div>
+                     </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="product-card">
+                        <img class="product-image" src="assets/img/supra.webp" alt="Cub 3">
+                        <h5>GTR 150</h5>
+                        <div class="price-info">Harga Mulai</div>
+                        <div class="price-main">Rp 21,350,000</div>
                     </div>
                 </div>
             </div>
@@ -135,4 +169,30 @@
     <!-- Custom Style -->
     <link rel="stylesheet" href="assets/css/style.css">
 </body>
+</html>
+
+<!-- Footer -->
+    <footer class="footer mt-auto py-4">
+        <div class="container">
+            <div class="d-flex flex-column flex-md-row align-items-center align-items-md-left text-body">
+                <div class="copyright text-white mb-2 mb-md-0">
+                    &copy; 2025 - <a href="https://www.astra-honda.com/" target="_blank" class="fw-bolder">Honda
+                        Salatiga</a>. All rights reserved.
+                </div>
+                <div class="link ms-md-auto text-white">
+                    <a href="https://www.astra-honda.com/" target="_blank">Terms & Conditions</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popper and Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
