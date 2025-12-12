@@ -249,6 +249,48 @@ body {
       transform: translateY(0);
   }
 }
+/* Produk */
+.product-card{
+  transition: transform 0.5s;
+}
+
+.product-card:hover{
+  transform: translateY(-15px);
+}
+
+/* Title */
+.section-title {
+  color: #e62a09;
+  font-size: 2.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-shadow: 0 3px 12px rgba(244, 236, 236, 0.4);
+}
+
+.product-card{
+    border: 1px solid#f70707;
+    background-color: #d1cccc;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card-motor img {
+    width: 100%;
+    border-radius: 15px; /* biar gambar sudutnya membulat */
+}
+
+.card-motor h3 {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
 
 
 /* Footer */
